@@ -1,0 +1,175 @@
+.main-container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+.card-background {
+  background: #efefef;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-10px {
+  padding: 10px;
+}
+
+.margin-y-5px {
+  margin: 5px 0px;
+}
+
+.border-1 {
+  border-left: 5px solid #72c3dc;
+}
+.border-2 {
+  border-left: 5px solid #2b8ead;
+}
+.border-3 {
+  border-left: 5px solid #6f98a8;
+}
+.border-4 {
+  border-left: 5px solid #bfbfbf;
+}
+.border-5 {
+  border-left: 5px solid #2f454e;
+}
+
+.color-black {
+  color: #000000;
+}
+.custom-background {
+  background: #72c3dc;
+}
+.color-ffffff {
+  color: #ffffff;
+}
+.border-none {
+  border: none;
+}
+.border-radius-5px {
+  border-radius: 5px;
+}
+.width-150px {
+  width: 150px;
+}
+.custom-shadow {
+  box-shadow: 0px 5px #2b8ead;
+}
+.p-10px {
+  padding: 10px;
+}
+.fs-15px {
+  font-size: 15px;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.margin-15-0 {
+  margin: 15px 0px;
+}
+
+.background-black {
+  background: black;
+}
+.vertical-middle {
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-container {
+    max-width: 960px;
+  }
+  .desktop-block {
+    display: block;
+  }
+  .desktop-flex {
+    display: flex;
+  }
+  .desktop-block {
+    display: block;
+  }
+  .desktop-mx-auto {
+    margin: 0 auto;
+  }
+
+  .desktop-margin-0 {
+    margin: 0px;
+  }
+
+  .desktop-flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  .desktop-width-750px {
+    width: 750px;
+  }
+  .desktop-width-230px {
+    width: 230px;
+  }
+  .desktop-height-230px {
+    height: 230px;
+  }
+
+  .desktop-border-none {
+    border: none;
+  }
+
+  .desktop-background-1 {
+    background: #72c3dc;
+  }
+  .desktop-background-2 {
+    background: #2b8ead;
+  }
+  .desktop-background-3 {
+    background: #6f98a8;
+  }
+  .desktop-background-4 {
+    background: #bfbfbf;
+  }
+  .desktop-background-5 {
+    background: #2f454e;
+  }
+
+  .desktop-lh-230px {
+    line-height: 230px;
+  }
+
+  .desktop-color-ffffff {
+    color: #ffffff;
+  }
+
+  .desktop-fs-100px {
+    font-size: 100px;
+  }
+
+  .desktop-align-center {
+    align-self: center;
+  }
+
+  .desktop-my-20px {
+    margin: 20px 0;
+  }
+
+  .desktop-background-white {
+    background: white;
+  }
+
+  .desktop-color-black {
+    color: #000000;
+  }
+  .desktop-section-background{
+      background: #efefef;
+  }
+
+}
